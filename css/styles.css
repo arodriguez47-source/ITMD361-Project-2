@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+  text-align: center;
+  background-image: url("../images/cyber-o.jpg");
+  background-repeat: round;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 1px;
+}
+
+#header h1 {
+  position: relative;
+  font-family: 'Cyber Princess', sans-serif;
+  color: white;
+}
+
+#main-nav {
+  float: left;
+  text-align: center;
+  width: 100%;
+  background-image: url("../images/cyber-b.jpg");
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+}
+
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+
+#resume-wrapper {
+  background-image: url("../images/cyber.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
