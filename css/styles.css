@@ -20,7 +20,7 @@ body {
   position: relative;
   font-family: "Cyber Princess", sans-serif;
   color: white;
-  src: url(https://fonts.cdnfonts.com/s/31833/CyberPrincess.woff);
+  src: url(https://fonts.cdnfonts.com/css/cyber-princess);
 }
 
 #main-nav {
@@ -147,21 +147,21 @@ ul li {
   color: orangered;
   font-size: 2em;
   font-family: "Cyber Princess", sans-serif;
-  src: url(https://fonts.cdnfonts.com/s/31833/CyberPrincess.woff);
+  src: url(https://fonts.cdnfonts.com/css/cyber-princess);
 }
 
 #profile-wrapper p {
   color: goldenrod;
   font-family: "Cyber Princess", sans-serif;
-  src: url(https://fonts.cdnfonts.com/s/31833/CyberPrincess.woff);
+  src: url(https://fonts.cdnfonts.com/css/cyber-princess);
 }
 
 #journey, #courses {
-    background-color: darkgreen;
-    border: 0.1em solid goldenrod;
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
+  background-color: darkgreen;
+  border: 0.1em solid goldenrod;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 #courses ul li {
   color: goldenrod;
@@ -188,7 +188,7 @@ ul li {
   margin-top: 10px;
   font-style: "Cyber Princess", sans-serif;
   color: #fcfcfc;
-  src: url(https://fonts.cdnfonts.com/s/31833/CyberPrincess.woff);
+  src: url(https://fonts.cdnfonts.com/css/cyber-princess);
 }
 
 #Resource-Wrapper {
