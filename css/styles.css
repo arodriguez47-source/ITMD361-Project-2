@@ -83,7 +83,7 @@ body {
 
 #name-and-contact img {
   border-radius: 50%;
-  border: 4px solid orange;
+  border: 1em solid orange;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 150px;
   height: 150px;
@@ -117,16 +117,12 @@ body {
   list-style-type: circle;
 }
 
-#Job-Experience ul li {
+ul li {
   font-size: small;
 }
 
 #skills ul {
   list-style-type: square;
-}
-
-#skills ul li {
-  font-size: small;
 }
 
 #projects p {
@@ -139,7 +135,76 @@ body {
   list-style-type: circle;
 }
 
-#projects ul li {
-    font-size: small;
+#profile-wrapper {
+  background-image: url("../images/triforce.jpg");
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+#profile-wrapper h3 {
+  color: orangered;
+  font-size: 2em;
+  font-family: 'Cyber Princess', sans-serif;
+}
+
+#profile-wrapper p {
+  color: goldenrod;
+  font-family: 'Cyber Princess', sans-serif;
+}
+
+#journey, #courses {
+    background-color: darkgreen;
+    border: 0.1em solid goldenrod;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
-  
+
+#courses ul li {
+  color: goldenrod;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#cat-info {
+  margin-bottom: 1em;
+}
+
+#cat-info img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 4px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  height: auto;
+}
+
+#cat-info sub {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-style: 'Cyber Princess', sans-serif;
+  color: #fcfcfc;
+}
+
+#Resource-Wrapper {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#Resource-Wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+#Resource-Wrapper h3 {
+  margin-top: 20px;
+}
+
+#Resource-Wrapper iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+}
