@@ -18,7 +18,7 @@ body {
 
 #header h1 {
   position: relative;
-  font-family: "Cyber-Princess", sans-serif;
+  font-family: "Cyber Princess", arial, sans-serif;
   color: white;
 }
 
@@ -146,12 +146,12 @@ ul li {
 #profile-wrapper h3 {
   color: orangered;
   font-size: 2em;
-  font-family: "Cyber Princess", sans-serif;
+  font-family: "Cyber Princess", arial, sans-serif;
 }
 
 #profile-wrapper p {
   color: goldenrod;
-  font-family: "Cyber Princess", sans-serif;
+  font-family: "Cyber Princess", arial, sans-serif;
 }
 
 #journey, #courses {
@@ -184,7 +184,7 @@ ul li {
   display: block;
   text-align: center;
   margin-top: 10px;
-  font-style: "Cyber Princess", sans-serif;
+  font-family: "Cyber Princess", arial, sans-serif;
   color: #fcfcfc;
 }
 
