@@ -1,0 +1,14 @@
+#map-wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: red;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#map {
+  width: 700px;
+  height: 500px;
+  background-color: #ccc;
+  margin: 30px auto;
+}
