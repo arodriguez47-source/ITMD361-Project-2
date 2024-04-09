@@ -1,9 +1,17 @@
 function initmap() {
-  alert('it works');
-  //map = new google.maps.Map(document.getElementById('map'), {
-    //center: {lat: -34.397, lng: 150.644},
-    //zoom: 8
-  //});
+  //alert('it works');
+  var el = document.getElementById('map');
+  var myLocation = new google.maps.LatLng(-34.397, 150.644);
+  var mapOptions = {
+    center: myLocation,
+    zoom: 8,
+    mapTypeId: google.maps.mapTypeId.SATELLITE,
+    mapTypeControlOptions: {
+      position: google.maps.ControlPosition.BOTTOM_CENTER
+    }
+  };
+
+  var myMap = new google.maps.Map(el, mapOptions);
 
   //<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
     //async defer></script>
