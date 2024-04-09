@@ -9,4 +9,4 @@ function initmap() {
     //async defer></script>
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initmap);
