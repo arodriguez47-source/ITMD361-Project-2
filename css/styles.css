@@ -215,3 +215,28 @@ ul li {
   max-width: 800px;
   height: 400px;
 }
+
+@media (min-width: 760px) {
+  #main-content-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #header h1 {
+    font-size: 2em;
+  }
+
+  #main-nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #main-nav ul li {
+    margin-bottom: 0;
+  }
+
+  #main-nav ul li a {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+}
