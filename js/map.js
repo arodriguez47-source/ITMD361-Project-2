@@ -17,10 +17,16 @@ function initMap() {
     position: myLocation,
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
-    //icon: 'icon.png'
+    icon: 'images/icon.png'
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
   
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(myMap, marker);
+  });
 
   //<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
     //async defer></script>
