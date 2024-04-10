@@ -7,8 +7,8 @@
   <link href="https://fonts.cdnfonts.com/css/cyber-princess" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" href="basicmap.css">
-  <script async src="basicmap.js"></script>
+  <link rel="stylesheet" href="css/map.css">
+  <script async src="map.js"></script>
   <style>
     @import url('https://fonts.cdnfonts.com/css/cyber-princess');
   </style>
@@ -26,7 +26,9 @@
       <li><a href="maps.html">Map</a></li>
     </ul>
   </nav>
-  <div id="map"></div>
+  <div id="map-wrapper">
+    <div id="map"></div>
+  </div>
   <script>
     var map;
     function initMap() {
