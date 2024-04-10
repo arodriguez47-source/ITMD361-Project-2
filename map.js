@@ -1,4 +1,4 @@
-function initmap() {
+function initMap() {
   //alert('it works');
   var el = document.getElementById('map');
   var myLocation = new google.maps.LatLng(-34.397, 150.644);
@@ -26,4 +26,4 @@ function initmap() {
     //async defer></script>
 }
 
-google.maps.event.addDomListener(window, 'load', initmap);
+google.maps.event.addDomListener(window, 'load', initMap);
