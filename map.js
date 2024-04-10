@@ -13,6 +13,15 @@ function initmap() {
 
   var myMap = new google.maps.Map(el, mapOptions);
 
+  var marker = new google.maps.Marker({
+    position: myLocation,
+    map: myMap,
+    animation: google.maps.Animation.BOUNCE,
+    //icon: 'icon.png'
+  });
+
+  
+
   //<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
     //async defer></script>
 }
